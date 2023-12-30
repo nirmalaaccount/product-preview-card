@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee1d5;
+   overflow: hidden;
+    position: relative;
+}
+.container{
+    max-width: 900px;
+    height: 700px;
+    position: absolute;
+    margin: 0 auto;
+    top: 120px;
+    left: 28%;
+    display: flex;
+}
+.content{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.small-text{
+   margin-top:30px;
+   margin-left: 25px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-size: 16px;
+   color: gray;
+   text-align: left;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 250px;
+    text-align: left;
+    letter-spacing:-1px;
+    margin-left: 25px;
+    padding: 0;
+    margin-bottom: 26px;
+}
+p{
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight:-10px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+.span1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.span2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 53, 28, 0.774);
+}
+.cost{
+    text-decoration: line-through;
+    margin-left: 15px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left-img{
+    width: 300px;
+    height: 500px;
+    float: left;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: rgba(2, 43, 24, 0.959);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cart{
+    margin-right: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width : 500px) {
+    body{
+        position: relative;
+        overflow: auto;
+    }
+    
+    
+    .container{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .left-img{
+        background-image: url(images/image-product-mobile.jpg);
+        width: 100%;
+        height: 400px;
+        border-radius: 0;
+    }
+    .content{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+    h1{
+        width: 400px;
+        font-size: 35px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-bottom: 40px;
+        margin-left: 55px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    p{
+        width: 300px;
+        margin-left: 55px;
+    }
+    button{
+        width: 400px;
+        margin-bottom: 50px;
+    }
+    .small-text{
+        margin-left: 55px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
